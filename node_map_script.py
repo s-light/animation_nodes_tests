@@ -1,15 +1,3 @@
-Inputs:
-value - Float
-in_low - Float
-in_high - Float
-out_low - Float
-out_high - Float
-clamp - Boolean
-
-Outputs:
-output - Float
-
-Script:
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
@@ -17,9 +5,6 @@ Script:
 a mapping node.
 
 map a value from one range to another range.
-((value - in_low) * (out_high - out_low)) / (in_high - in_low) + out_low
-((value - inlow) * (outhigh - outlow)) / (inhigh - inlow) + outlow
-
 """
 
 
